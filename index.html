@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid coffee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        #grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 150px);
+            gap: 20px;
+            width: 85%;
+            margin: auto;
+            padding: 30px;
+            
+        }
+
+        .child {
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            width: auto;
+            margin: 0;
+            
+            padding: 20px;
+            
+        }
+
+        .headings {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .names {
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            margin: 0;
+            font-size: 21px;
+        }
+
+        .rupes {
+            color: #E57C23;
+            font-weight: bolder;
+            font-size: 20px;
+            margin: 0;
+            margin-top: 5px;
+        }
+
+        .para {
+            color: #5C5470;
+            margin: 0;
+            margin-top: 10px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        @media all and (min-width: 575px) and (max-width : 890px) {
+            
+        #grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 150px);
+            gap: 20px;
+            width: 85%;
+            margin: auto;
+            padding: 30px;
+            
+        }
+        }
+
+        @media all and (min-width: 370px) and (max-width: 574px) {
+            #grid-container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(9, 150px);
+            gap: 20px;
+            width: 85%;
+            margin: auto;
+            padding: 30px;
+            
+        }
+    }
+    @media  (max-width:369px) {
+        #grid-container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(9, 150px);
+            gap: 20px;
+            width: 85%;
+            margin: auto;
+            padding: 30px;
+    }
+    }
+
+    </style>
+</head>
+<body>
+    <div id="grid-container">
+        <div class="child">
+           <div class="headings">
+               <p class="names">Cappuccino</p>
+           <p class="rupes">$49</p>
+           </div>
+            <p class="para">Usage of the Internet is becoming more
+                common due to rapid advance.</p>
+        </div>
+        <div  class="child">
+            <div class="headings">
+                <p class="names">Americano</p>
+            <p class="rupes">$49</p>
+            </div>
+            <p class="para">Usage of the Internet is becoming more
+                common due to rapid advance.</p>
+        </div>
+        <div  class="child">
+           <div class="headings">
+            <p class="names">Espresso</p>
+            <p class="rupes">$49</p>
+           </div>
+            <p class="para">Usage of the Internet is becoming more
+                common due to rapid advance.</p>
+        </div>
+        <div  class="child">
+           <div class="headings">
+            <p class="names">Macchiato</p>
+            <p class="rupes">$49</p>
+           </div>
+            <p class="para">Usage of the Internet is becoming more
+                common due to rapid advance.</p>
+        </div>
+        <div  class="child">
+           <div class="headings">
+            <p class="names">Mocha</p>
+            <p class="rupes">$49</p>
+           </div>
+            <p class="para">Usage of the Internet is becoming more
+                common due to rapid advance.</p>
+        </div>
+        <div  class="child">
+            <div class="headings">
+                <p class="names">Coffee Latte</p>
+            <p class="rupes">$49</p>
+            </div>
+            <p class="para">Usage of the Internet is becoming more
+                common due to rapid advance.</p>
+        </div>
+        <div  class="child">
+            <div class="headings">
+                <p class="names">Piccolo Latte</p>
+            <p class="rupes">$49</p>
+            </div>
+            <p class="para">Usage of the Internet is becoming more
+                common due to rapid advance.</p>
+        </div>
+        <div  class="child">
+           <div class="headings">
+            <p  class="names">Ristretto</p>
+            <p class="rupes">$49</p>
+           </div>
+            <p class="para">Usage of the Internet is becoming more
+                common due to rapid advance.</p>
+        </div>
+        <div  class="child">
+           <div class="headings">
+            <p class="names">Affogato</p>
+            <p class="rupes">$49</p>
+           </div>
+            <p class="para">Usage of the Internet is becoming more
+                common due to rapid advance.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
